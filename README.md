@@ -12,9 +12,8 @@ The Stable Diffusion 2.0 release includes robust text-to-image models trained us
 To obtain the FID score first, preprocess the real and generated images.
 Then, extract features from these images utilizing the Inception-v3 model.
 After obtaining the features, calculate the FID score by computing the mean
-and covariance matrices of the features and then using these matrices to de-
-termine the distance between the distributions of real and generated images.<br>
-<b>FID = ∥μreal − μgenerated||^2 + T r(∑ real + ∑ generated − 2(∑ real ∑ generated)^1/2)</b>
+and covariance matrices of the features and then using these matrices to determine the distance between the distributions of real and generated images.<br>
+FID = ∥μreal − μgenerated||^2 + T r(∑ real + ∑ generated − 2(∑ real ∑ generated)^1/2)
 <br>
  • μreal and μgenerated are the mean feature representations of real and
 generated images<br>
@@ -27,15 +26,16 @@ for the generated images. The predictions are then aggregated and used to
 compute the entropy of the distribution. This process is repeated multiple
 times to obtain a stable estimate of the IS. Finally, the mean and standard
 deviation of the IS are calculated.<br>
-<b>IS = exp(Ex[KL(p(y | x) ∥∥ p(y))])</b> <br>
+IS = exp(Ex[KL(p(y | x) ∥∥ p(y))])<br>
 • p(y|x) is the conditional class probability given a generated image<br>
 • x, p(y) is the marginal class probability<br>
 • KL denotes the Kullback-Leibler divergence<br>
 
 <h5><b><u>Evaluation Result on the Selected Prompts</u></b></h5>
 
-![image](https://github.com/hilfa007/DALL-E2-vs-Stable-Diffusion2-Evaluation-FID-and-IS-/assets/88790993/d1d5d9d9-8ff1-4ac6-8caf-89c69024277a)
+![image](https://github.com/hilfa007/DALL-E2-vs-Stable-Diffusion2-Evaluation-FID-and-IS-/assets/88790993/f57bffcc-2cd4-49be-a807-af1b3cc93042)
 
 <h5><b><u>Final Results:</u></b></h5>
 
-![image](https://github.com/hilfa007/DALL-E2-vs-Stable-Diffusion2-Evaluation-FID-and-IS-/assets/88790993/d3f0948d-de0b-410d-8136-839d7a173c7a)
+![image](https://github.com/hilfa007/DALL-E2-vs-Stable-Diffusion2-Evaluation-FID-and-IS-/assets/88790993/9fbf5776-aca1-4095-a7e0-0b9033f2af7a)
+
