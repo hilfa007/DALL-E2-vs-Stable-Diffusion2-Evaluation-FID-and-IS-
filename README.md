@@ -1,3 +1,8 @@
+![image](https://github.com/hilfa007/DALL-E2-vs-Stable-Diffusion2-Evaluation-FID-and-IS-/assets/88790993/8eda879d-e46b-4bde-a32f-168fdee6e04b)
+
+
+
+
 <H3><b>A comparative Exploration of DALL-E-2 and Stable-Diffusion-2 based on the Frechet Inception Distance (FID) and Inception Score (IS)</b></H3>
 <Big><b><u>DALL-E-2</u></b></Big><br>
 DALL-E 2 is an image generation system created by OpenAI which can
