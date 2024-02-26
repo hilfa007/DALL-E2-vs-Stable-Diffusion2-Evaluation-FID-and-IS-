@@ -33,7 +33,7 @@ IS = exp(Ex[KL(p(y | x) ∥∥ p(y))])<br>
 
 <h5><b><u>Evaluation Result on the Selected Prompts</u></b></h5>
 
-![image](https://github.com/hilfa007/DALL-E2-vs-Stable-Diffusion2-Evaluation-FID-and-IS-/assets/88790993/f57bffcc-2cd4-49be-a807-af1b3cc93042)
+![image](https://github.com/hilfa007/DALL-E2-vs-Stable-Diffusion2-Evaluation-FID-and-IS-/assets/88790993/58efaa23-f868-445c-8984-9c5a10fb25ca)
 
 <h5><b><u>Final Results:</u></b></h5>
 
