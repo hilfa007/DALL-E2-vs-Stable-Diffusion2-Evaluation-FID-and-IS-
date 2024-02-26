@@ -13,11 +13,11 @@ To obtain the FID score first, preprocess the real and generated images.
 Then, extract features from these images utilizing the Inception-v3 model.
 After obtaining the features, calculate the FID score by computing the mean
 and covariance matrices of the features and then using these matrices to de-
-termine the distance between the distributions of real and generated images.
+termine the distance between the distributions of real and generated images.<br>
 FID = ∥μreal − μgenerated||2 + T r(∑ real + ∑ generated − 2(∑ real ∑ generated)1/2)
-(2.1)
-• μreal and μgenerated are the mean feature representations of real and
-generated images.
-• Σreal and Σgenerated are the covariance matrices of real and gener-ated image features
-\item Tr denotes the trace operation.
+<br>
+\item μreal and μgenerated are the mean feature representations of real and
+generated images<br>
+\item Σreal and Σgenerated are the covariance matrices of real and gener-ated image features<br>
+\item Tr denotes the trace operation<br>
 
