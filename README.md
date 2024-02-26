@@ -18,7 +18,7 @@ FID = ∥μreal − μgenerated||2 + T r(∑ real + ∑ generated − 2(∑ real
 <br>
  • μreal and μgenerated are the mean feature representations of real and
 generated images<br>
- • Σreal and Σgenerated are the covariance matrices of real and gener-ated image features<br>
+ • Σreal and Σgenerated are the covariance matrices of real and generated image features<br>
  • Tr denotes the trace operation<br>
 
 <Big><b><u>Inception Score(IS) Calculation:</u></b></Big><br>
@@ -31,3 +31,9 @@ IS = exp(Ex[KL(p(y | x) ∥∥ p(y))]) <br>
 • p(y|x) is the conditional class probability given a generated image<br>
 • x, p(y) is the marginal class probability<br>
 • KL denotes the Kullback-Leibler divergence.<br>
+
+<h6><b><u>Evaluation Result on the Selected Prompts</u></b></h6>
+![image](https://github.com/hilfa007/DALL-E2-vs-Stable-Diffusion2-Evaluation-FID-and-IS-/assets/88790993/030a1d20-e888-4e05-bcbf-a10825258f56)
+
+<h6><b><u>Final Results:</u></b></h6>
+![image](https://github.com/hilfa007/DALL-E2-vs-Stable-Diffusion2-Evaluation-FID-and-IS-/assets/88790993/d3f0948d-de0b-410d-8136-839d7a173c7a)
