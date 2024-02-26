@@ -16,8 +16,8 @@ and covariance matrices of the features and then using these matrices to de-
 termine the distance between the distributions of real and generated images.<br>
 FID = ∥μreal − μgenerated||2 + T r(∑ real + ∑ generated − 2(∑ real ∑ generated)1/2)
 <br>
-\item μreal and μgenerated are the mean feature representations of real and
+ • μreal and μgenerated are the mean feature representations of real and
 generated images<br>
-\item Σreal and Σgenerated are the covariance matrices of real and gener-ated image features<br>
-\item Tr denotes the trace operation<br>
+ • Σreal and Σgenerated are the covariance matrices of real and gener-ated image features<br>
+ • Tr denotes the trace operation<br>
 
